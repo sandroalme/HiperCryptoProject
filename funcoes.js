@@ -5,3 +5,11 @@ function clickMenu() {
         itensmenu.style.display = 'block'
    }
 }
+
+function mudancaTamanho() {
+    if (window.innerWidth >= 768) {
+        itensmenu.style.display = 'block'
+    } else {
+        itensmenu.style.display = 'none'
+    }
+}

@@ -9,12 +9,13 @@
     <script src="funcoes.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
 </head>
 
-<body>
+<body onresize="mudancaTamanho()">
     <header class="header">
         <a href="index.html"><img class="header-logo" src="images/HiperCrypto Logo.png" alt="Logo HiperCrypto"></a>
-        <span class="material-icons" onclick="clickMenu()">menu</span>
+        <span class="material-icons" id="burguer" onclick="clickMenu()">menu</span>
         <nav class="header-menu" id="itensmenu">
             <a href="sobreahipercrypto.html" class="header-menu-item">Sobre a HiperCrypto</a>
             <a href="regulamento.html" class="header-menu-item">Regulamento</a>
