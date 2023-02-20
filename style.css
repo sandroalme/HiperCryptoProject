@@ -29,13 +29,13 @@ body {
 
 .material-icons {
     color: white;
-    display: block;
-    text-align: left;
+    display: flex;
     cursor: pointer;
+    font-size: 45px;
 }
 
 .header-menu {
-    display: none;
+    display: flex;
     gap: 32px;
 }
 
