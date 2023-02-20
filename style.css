@@ -26,6 +26,10 @@ body {
     height: 50px;
 }
 
+.material-icons {
+    color: white;
+}
+
 .header-menu {
     display: flex;
     gap: 32px;
