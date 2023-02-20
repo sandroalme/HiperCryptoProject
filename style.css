@@ -28,10 +28,13 @@ body {
 
 .material-icons {
     color: white;
+    display: block;
+    text-align: left;
+    cursor: pointer;
 }
 
 .header-menu {
-    display: flex;
+    display: none;
     gap: 32px;
 }
 
